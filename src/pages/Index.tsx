@@ -42,12 +42,13 @@ const Index = () => {
             <div className="relative rounded-2xl overflow-hidden border border-border bg-card">
               <img src={heroImage} alt="Alex Nasser - Workshop Riq presenter" className="w-full aspect-[4/3] object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-              <div className="absolute bottom-6 left-6 right-6 flex flex-col gap-3">
-                <Button onClick={handleCTAClick} className="w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-lg py-6 px-8 rounded-full shadow-lg transition-all duration-300 hover:scale-105">
+              <div className="absolute bottom-3 left-3 right-3 md:bottom-6 md:left-6 md:right-6 flex flex-col gap-2 md:gap-3">
+                <Button onClick={handleCTAClick} className="w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-xs sm:text-sm md:text-base lg:text-lg py-3 sm:py-4 md:py-5 lg:py-6 px-4 sm:px-6 md:px-8 rounded-full shadow-lg transition-all duration-300 hover:scale-105">
                   AULA MASTER R$27
                 </Button>
-                <Button onClick={handleCTAClick} className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg py-6 px-8 rounded-full shadow-lg transition-all duration-300 hover:scale-105">
-                  AULA MASTER + EBOOK + VÍDEOS R$57
+                <Button onClick={handleCTAClick} className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xs sm:text-sm md:text-base lg:text-lg py-3 sm:py-4 md:py-5 lg:py-6 px-4 sm:px-6 md:px-8 rounded-full shadow-lg transition-all duration-300 hover:scale-105">
+                  <span className="hidden sm:inline">AULA MASTER + EBOOK + VÍDEOS R$57</span>
+                  <span className="sm:hidden">MASTER + EXTRAS R$57</span>
                 </Button>
               </div>
             </div>
@@ -87,12 +88,13 @@ const Index = () => {
               Com Alex Nasser
             </h1>
 
-            <div className="flex flex-col md:flex-row gap-4">
-              <Button onClick={handleCTAClick} className="w-full md:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-xl py-8 px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105">
+            <div className="flex flex-col md:flex-row gap-3 md:gap-4">
+              <Button onClick={handleCTAClick} className="w-full md:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-base sm:text-lg md:text-xl py-4 sm:py-6 md:py-8 px-6 sm:px-8 md:px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105">
                 AULA MASTER R$27
               </Button>
-              <Button onClick={handleCTAClick} className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xl py-8 px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-primary/50">
-                AULA MASTER + EBOOK + VÍDEOS R$57
+              <Button onClick={handleCTAClick} className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-base sm:text-lg md:text-xl py-4 sm:py-6 md:py-8 px-6 sm:px-8 md:px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-primary/50">
+                <span className="hidden sm:inline">AULA MASTER + EBOOK + VÍDEOS R$57</span>
+                <span className="sm:hidden">MASTER + EXTRAS R$57</span>
               </Button>
             </div>
 
@@ -142,8 +144,9 @@ const Index = () => {
               Nós devolvemos todo seu dinheiro na mesma hora. Sem perguntas. Sem burocracia. Sem risco.
             </p>
             
-            <Button onClick={handleCTAClick} className="w-full md:w-auto bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-xl py-8 px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105 mb-4">
-              GARANTIR ACESSO VIP → R$48
+            <Button onClick={handleCTAClick} className="w-full md:w-auto bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-base sm:text-lg md:text-xl py-4 sm:py-6 md:py-8 px-6 sm:px-8 md:px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105 mb-4">
+              <span className="hidden sm:inline">GARANTIR ACESSO VIP → R$48</span>
+              <span className="sm:hidden">ACESSO VIP → R$48</span>
             </Button>
             
             <p className="text-muted-foreground text-sm">
@@ -278,9 +281,10 @@ const Index = () => {
           <div className="mt-12 text-center">
             <Button 
               onClick={handleCTAClick} 
-              className="w-full md:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-xl py-8 px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105"
+              className="w-full md:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-base sm:text-lg md:text-xl py-4 sm:py-6 md:py-8 px-6 sm:px-8 md:px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105"
             >
-              Garanta Seu VIP por Apenas R$48
+              <span className="hidden sm:inline">Garanta Seu VIP por Apenas R$48</span>
+              <span className="sm:hidden">VIP por R$48</span>
             </Button>
           </div>
         </div>
