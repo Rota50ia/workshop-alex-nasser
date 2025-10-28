@@ -42,11 +42,11 @@ const Index = () => {
             <div className="relative rounded-2xl overflow-hidden border border-border bg-card">
               <img src={heroImage} alt="Alex Nasser - Workshop Riq presenter" className="w-full aspect-[4/3] object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-              <div className="absolute bottom-3 left-3 right-3 md:bottom-6 md:left-6 md:right-6 flex flex-col gap-2 md:gap-3">
-                <Button onClick={handleCTAClick} className="w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-[11px] xs:text-xs sm:text-sm md:text-base lg:text-lg py-2.5 sm:py-3 md:py-4 lg:py-5 px-3 sm:px-4 md:px-6 rounded-full shadow-lg transition-all duration-300 hover:scale-105">
+              <div className="absolute bottom-4 left-4 right-4 md:bottom-6 md:left-6 md:right-6 flex flex-col gap-2 md:gap-3">
+                <Button onClick={handleCTAClick} className="w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-[11px] xs:text-xs sm:text-sm md:text-base lg:text-lg py-2.5 sm:py-3 md:py-4 lg:py-5 px-3 sm:px-4 md:px-6 rounded-full shadow-lg transition-all duration-300">
                   AULA MASTER R$27
                 </Button>
-                <Button onClick={handleCTAClick} className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-[9px] xs:text-[10px] sm:text-xs md:text-sm lg:text-base py-2.5 sm:py-3 md:py-4 lg:py-5 px-2 sm:px-3 md:px-4 rounded-full shadow-lg transition-all duration-300 hover:scale-105 leading-tight">
+                <Button onClick={handleCTAClick} className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-[9px] xs:text-[10px] sm:text-xs md:text-sm lg:text-base py-2.5 sm:py-3 md:py-4 lg:py-5 px-2 sm:px-3 md:px-4 rounded-full shadow-lg transition-all duration-300 leading-tight whitespace-normal sm:whitespace-nowrap text-center">
                   AULA MASTER + EBOOK + VÍDEOS R$57
                 </Button>
               </div>
