@@ -18,8 +18,8 @@ const Index = () => {
     const currentYear = date.getFullYear();
     const currentMonth = date.getMonth();
 
-    // Set to October 29 at 20:00
-    const eventDate = new Date(currentYear, 9, 29, 20, 0, 0); // Month is 0-indexed (9 = October)
+    // Set to November 20 at 20:00
+    const eventDate = new Date(currentYear, 10, 20, 20, 0, 0); // Month is 0-indexed (10 = November)
 
     // If the date has passed this year, set it for next year
     if (eventDate < date) {
@@ -42,11 +42,13 @@ const Index = () => {
             <div className="relative rounded-2xl overflow-hidden border border-border bg-card">
               <img src={heroImage} alt="Carlos Café - Workshop presenter" className="w-full aspect-[4/3] object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-              <div className="absolute bottom-6 left-6 right-6">
-                <Button onClick={handleCTAClick} className="w-full md:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-lg py-6 px-8 rounded-full shadow-lg transition-all duration-300 hover:scale-105">
-                  GARANTA SUA VAGA
+              <div className="absolute bottom-6 left-6 right-6 flex flex-col gap-3">
+                <Button onClick={handleCTAClick} className="w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-lg py-6 px-8 rounded-full shadow-lg transition-all duration-300 hover:scale-105">
+                  AULA MASTER R$27
                 </Button>
-                
+                <Button onClick={handleCTAClick} className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg py-6 px-8 rounded-full shadow-lg transition-all duration-300 hover:scale-105">
+                  AULA MASTER + EBOOK + VÍDEOS R$57
+                </Button>
               </div>
             </div>
 
@@ -76,16 +78,23 @@ const Index = () => {
               <span className="text-accent font-bold text-sm uppercase tracking-wide">
                 WORKSHOP LIVE
               </span>
-              <span className="text-foreground font-bold text-sm">| QUA 29/10 ÀS 20H</span>
+              <span className="text-foreground font-bold text-sm">| QUA 20/11 ÀS 20H</span>
             </div>
 
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-snug">
-              Últimas Vagas! Workshop 'Toque seu Primeiro Samba' com Carlos Café
+              Vagas abertas!<br />
+              Workshop Riq - Força e Tradição<br />
+              Com Alex Nasser
             </h1>
 
-            <Button onClick={handleCTAClick} className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xl py-8 px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-primary/50">
-              Garanta Seu VIP por Apenas R$48
-            </Button>
+            <div className="flex flex-col md:flex-row gap-4">
+              <Button onClick={handleCTAClick} className="w-full md:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-xl py-8 px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105">
+                AULA MASTER R$27
+              </Button>
+              <Button onClick={handleCTAClick} className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xl py-8 px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-primary/50">
+                AULA MASTER + EBOOK + VÍDEOS R$57
+              </Button>
+            </div>
 
             <div className="flex flex-col gap-4 pt-4">
               <div className="flex items-center gap-3 text-muted-foreground">
