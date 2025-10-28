@@ -43,10 +43,10 @@ const Index = () => {
               <img src={heroImage} alt="Alex Nasser - Workshop Riq presenter" className="w-full aspect-[4/3] object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
               <div className="absolute bottom-3 left-3 right-3 md:bottom-6 md:left-6 md:right-6 flex flex-col gap-2 md:gap-3">
-                <Button onClick={handleCTAClick} className="w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-xs sm:text-sm md:text-base lg:text-lg py-3 sm:py-4 md:py-5 lg:py-6 px-4 sm:px-6 md:px-8 rounded-full shadow-lg transition-all duration-300 hover:scale-105">
+                <Button onClick={handleCTAClick} className="w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-xs sm:text-sm md:text-base lg:text-lg py-2.5 sm:py-3 md:py-4 lg:py-5 px-3 sm:px-4 md:px-6 rounded-full shadow-lg transition-all duration-300 hover:scale-105">
                   AULA MASTER R$27
                 </Button>
-                <Button onClick={handleCTAClick} className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xs sm:text-sm md:text-base lg:text-lg py-3 sm:py-4 md:py-5 lg:py-6 px-4 sm:px-6 md:px-8 rounded-full shadow-lg transition-all duration-300 hover:scale-105">
+                <Button onClick={handleCTAClick} className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-[10px] sm:text-xs md:text-sm lg:text-base py-2.5 sm:py-3 md:py-4 lg:py-5 px-2 sm:px-3 md:px-4 rounded-full shadow-lg transition-all duration-300 hover:scale-105">
                   <span className="hidden sm:inline">AULA MASTER + EBOOK + VÍDEOS R$57</span>
                   <span className="sm:hidden">MASTER + EXTRAS R$57</span>
                 </Button>
@@ -92,7 +92,7 @@ const Index = () => {
               <Button onClick={handleCTAClick} className="w-full md:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-base sm:text-lg md:text-xl py-4 sm:py-6 md:py-8 px-6 sm:px-8 md:px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105">
                 AULA MASTER R$27
               </Button>
-              <Button onClick={handleCTAClick} className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-base sm:text-lg md:text-xl py-4 sm:py-6 md:py-8 px-6 sm:px-8 md:px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-primary/50">
+              <Button onClick={handleCTAClick} className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-sm sm:text-base md:text-lg lg:text-xl py-4 sm:py-6 md:py-8 px-4 sm:px-6 md:px-8 lg:px-10 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-primary/50">
                 <span className="hidden sm:inline">AULA MASTER + EBOOK + VÍDEOS R$57</span>
                 <span className="sm:hidden">MASTER + EXTRAS R$57</span>
               </Button>
