@@ -9,7 +9,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import heroImage from "@/assets/carlos-cafe-hero.png";
+import heroImage from "@/assets/alex-nasser-hero.png";
 import bonusImage from "@/assets/bonus-curso-samba.png";
 const Index = () => {
   // Event date: October 15, 2025 at 20:00 (8:00 PM)
@@ -40,7 +40,7 @@ const Index = () => {
           {/* Left Side - Image/Video Section */}
           <div className="space-y-6">
             <div className="relative rounded-2xl overflow-hidden border border-border bg-card">
-              <img src={heroImage} alt="Carlos Café - Workshop presenter" className="w-full aspect-[4/3] object-cover" />
+              <img src={heroImage} alt="Alex Nasser - Workshop Riq presenter" className="w-full aspect-[4/3] object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
               <div className="absolute bottom-6 left-6 right-6 flex flex-col gap-3">
                 <Button onClick={handleCTAClick} className="w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-lg py-6 px-8 rounded-full shadow-lg transition-all duration-300 hover:scale-105">
