@@ -137,8 +137,8 @@ const Index = () => {
             </p>
             
             <Button onClick={handleCTAClick} className="w-full md:w-auto bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-base sm:text-lg md:text-xl py-4 sm:py-6 md:py-8 px-6 sm:px-8 md:px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105 mb-4">
-              <span className="hidden sm:inline">GARANTIR ACESSO VIP → R$48</span>
-              <span className="sm:hidden">ACESSO VIP → R$48</span>
+              <span className="hidden sm:inline">GARANTIR ACESSO VIP → R$57</span>
+              <span className="sm:hidden">ACESSO VIP → R$57</span>
             </Button>
             
             <p className="text-muted-foreground text-sm">
@@ -272,8 +272,8 @@ const Index = () => {
 
           <div className="mt-12 text-center">
             <Button onClick={handleCTAClick} className="w-full md:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-base sm:text-lg md:text-xl py-4 sm:py-6 md:py-8 px-6 sm:px-8 md:px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105">
-              <span className="hidden sm:inline">Garanta Seu VIP por Apenas R$48</span>
-              <span className="sm:hidden">VIP por R$48</span>
+              <span className="hidden sm:inline">Garanta Seu VIP por Apenas R$57</span>
+              <span className="sm:hidden">VIP por R$57</span>
             </Button>
           </div>
         </div>
