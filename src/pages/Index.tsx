@@ -3,12 +3,7 @@ import { Button } from "@/components/ui/button";
 import { AlertTriangle } from "lucide-react";
 import UrgencyBar from "@/components/UrgencyBar";
 import CountdownTimer from "@/components/CountdownTimer";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import heroImage from "@/assets/alex-nasser-hero.png";
 import bonusImage from "@/assets/bonus-curso-samba.png";
 const Index = () => {
@@ -131,9 +126,7 @@ const Index = () => {
               Garantia de 100% de Satisfação – ✅ Risco ZERO Para Você
             </p>
             
-            <p className="text-muted-foreground text-base mb-4">
-              Se depois de assistir o workshop e receber todas as dicas de Carlos Café,
-            </p>
+            <p className="text-muted-foreground text-base mb-4">Se depois de assistir o workshop e receber todas as dicas de Alex Nasser,</p>
             
             <p className="text-muted-foreground text-base mb-4">
               você não achar HONESTAMENTE que vale pelo menos 100 vezes os R$48 que pagou...
@@ -278,10 +271,7 @@ const Index = () => {
           </div>
 
           <div className="mt-12 text-center">
-            <Button 
-              onClick={handleCTAClick} 
-              className="w-full md:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-base sm:text-lg md:text-xl py-4 sm:py-6 md:py-8 px-6 sm:px-8 md:px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105"
-            >
+            <Button onClick={handleCTAClick} className="w-full md:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-base sm:text-lg md:text-xl py-4 sm:py-6 md:py-8 px-6 sm:px-8 md:px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105">
               <span className="hidden sm:inline">Garanta Seu VIP por Apenas R$48</span>
               <span className="sm:hidden">VIP por R$48</span>
             </Button>
