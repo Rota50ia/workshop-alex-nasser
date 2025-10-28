@@ -30,10 +30,10 @@ const Index = () => {
       <UrgencyBar targetDate={targetDate} percentageFilled={47} />
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-16">
-        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 py-4 md:py-6">
+        <div className="grid md:grid-cols-2 gap-4 md:gap-6 items-center">
           {/* Left Side - Image/Video Section */}
-          <div className="space-y-6">
+          <div className="space-y-3">
             <div className="relative rounded-2xl overflow-hidden border border-border bg-card">
               <img src={heroImage} alt="Alex Nasser - Workshop Riq presenter" className="w-full aspect-[4/3] object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
@@ -48,26 +48,26 @@ const Index = () => {
             </div>
 
             {/* Alert Box with Countdown */}
-            <div className="bg-card border border-accent rounded-xl p-6">
-              <div className="flex items-start gap-4 mb-4">
-                <AlertTriangle className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
+            <div className="bg-card border border-accent rounded-xl p-4">
+              <div className="flex items-start gap-3 mb-3">
+                <AlertTriangle className="w-5 h-5 text-accent flex-shrink-0 mt-1" />
                 <div>
-                  <p className="text-accent font-bold text-lg uppercase tracking-wide">
+                  <p className="text-accent font-bold text-base uppercase tracking-wide">
                     AINDA HÁ TEMPO
                   </p>
-                  <p className="text-foreground text-sm uppercase tracking-wider">
+                  <p className="text-foreground text-xs uppercase tracking-wider">
                     EVENTO INICIA EM:
                   </p>
                 </div>
               </div>
-              <div className="mt-4">
+              <div className="mt-2">
                 <CountdownTimer targetDate={targetDate} variant="detailed" />
               </div>
             </div>
           </div>
 
           {/* Right Side - Content */}
-          <div className="space-y-8">
+          <div className="space-y-4">
             <div className="inline-flex items-center gap-2 bg-accent/10 border border-accent rounded-lg px-4 py-2">
               <div className="w-2 h-2 bg-accent rounded-full animate-pulse" />
               <span className="text-accent font-bold text-sm uppercase tracking-wide">
@@ -76,40 +76,40 @@ const Index = () => {
               <span className="text-foreground font-bold text-sm">| QUA 20/11 ÀS 20H</span>
             </div>
 
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-snug">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-snug">
               Vagas abertas!<br />
               Workshop Riq - Força e Tradição<br />
               Com Alex Nasser
             </h1>
 
-            <div className="flex flex-col md:flex-row gap-3 md:gap-4">
-              <Button onClick={handleCTAClick} className="w-full md:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-base sm:text-lg md:text-xl py-4 sm:py-6 md:py-8 px-6 sm:px-8 md:px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105">
+            <div className="flex flex-col md:flex-row gap-2 md:gap-3">
+              <Button onClick={handleCTAClick} className="w-full md:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-sm sm:text-base md:text-lg py-3 sm:py-4 md:py-5 px-4 sm:px-6 md:px-8 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105">
                 AULA MASTER R$27
               </Button>
-              <Button onClick={handleCTAClick} className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-sm sm:text-base md:text-lg lg:text-xl py-4 sm:py-6 md:py-8 px-4 sm:px-6 md:px-8 lg:px-10 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-primary/50">
+              <Button onClick={handleCTAClick} className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xs sm:text-sm md:text-base lg:text-lg py-3 sm:py-4 md:py-5 px-3 sm:px-4 md:px-6 lg:px-8 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-primary/50">
                 <span className="hidden sm:inline">AULA MASTER + EBOOK + VÍDEOS R$57</span>
                 <span className="sm:hidden">MASTER + EXTRAS R$57</span>
               </Button>
             </div>
 
-            <div className="flex flex-col gap-4 pt-4">
-              <div className="flex items-center gap-3 text-muted-foreground">
-                <div className="w-5 h-5 rounded-full bg-primary flex items-center justify-center">
-                  <span className="text-xs text-primary-foreground">✓</span>
+            <div className="flex flex-col gap-2 pt-2">
+              <div className="flex items-center gap-2 text-muted-foreground">
+                <div className="w-4 h-4 rounded-full bg-primary flex items-center justify-center">
+                  <span className="text-[10px] text-primary-foreground">✓</span>
                 </div>
-                <span className="text-base">Acesso completo ao workshop ao vivo</span>
+                <span className="text-sm">Acesso completo ao workshop ao vivo</span>
               </div>
-              <div className="flex items-center gap-3 text-muted-foreground">
-                <div className="w-5 h-5 rounded-full bg-primary flex items-center justify-center">
-                  <span className="text-xs text-primary-foreground">✓</span>
+              <div className="flex items-center gap-2 text-muted-foreground">
+                <div className="w-4 h-4 rounded-full bg-primary flex items-center justify-center">
+                  <span className="text-[10px] text-primary-foreground">✓</span>
                 </div>
-                <span className="text-base">Bônus exclusivos para participantes VIP</span>
+                <span className="text-sm">Bônus exclusivos para participantes VIP</span>
               </div>
-              <div className="flex items-center gap-3 text-muted-foreground">
-                <div className="w-5 h-5 rounded-full bg-primary flex items-center justify-center">
-                  <span className="text-xs text-primary-foreground">✓</span>
+              <div className="flex items-center gap-2 text-muted-foreground">
+                <div className="w-4 h-4 rounded-full bg-primary flex items-center justify-center">
+                  <span className="text-[10px] text-primary-foreground">✓</span>
                 </div>
-                <span className="text-base">Suporte e acompanhamento personalizado</span>
+                <span className="text-sm">Suporte e acompanhamento personalizado</span>
               </div>
             </div>
           </div>
