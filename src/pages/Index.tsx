@@ -126,9 +126,7 @@ const Index = () => {
             
             <p className="text-muted-foreground text-base mb-4">Se depois de assistir o workshop e receber todas as dicas de Alex Nasser,</p>
             
-            <p className="text-muted-foreground text-base mb-4">
-              você não achar HONESTAMENTE que vale pelo menos 100 vezes os R$48 que pagou...
-            </p>
+            <p className="text-muted-foreground text-base mb-4">você não achar HONESTAMENTE que vale pelo menos 100 vezes os R$57 que pagou...</p>
             
             <p className="text-muted-foreground text-base mb-8">
               Nós devolvemos todo seu dinheiro na mesma hora. Sem perguntas. Sem burocracia. Sem risco.
