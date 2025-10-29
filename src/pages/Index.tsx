@@ -73,7 +73,7 @@ const Index = () => {
               <span className="text-accent font-bold text-sm uppercase tracking-wide">
                 WORKSHOP LIVE
               </span>
-              <span className="text-foreground font-bold text-sm">| QUA 20/11 ÀS 20H</span>
+              <span className="text-foreground font-bold text-sm">| QUA 18/11 ÀS 20H & SÁB 22/11 às 14:00</span>
             </div>
 
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-snug">
