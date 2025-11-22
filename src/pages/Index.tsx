@@ -353,7 +353,7 @@ const Index = () => {
       <footer className="bg-card border-t border-border mt-24 py-12">
         <div className="max-w-7xl mx-auto px-4 md:px-8 text-center space-y-6">
           <p className="text-sm text-muted-foreground leading-relaxed max-w-4xl mx-auto">
-            A Comunidade Panderando com Carlos Café não é uma empresa associada ao WhatsApp INC, Facebook INC, META ou qualquer uma de suas empresas, e não possui nenhuma relação comercial ou comprometimento para usar.
+            A Comunidade Alex Nasser não é uma empresa associada ao WhatsApp INC, Facebook INC, META ou qualquer uma de suas empresas, e não possui nenhuma relação comercial ou comprometimento para usar.
           </p>
           
           <p className="text-sm text-muted-foreground">
@@ -361,7 +361,7 @@ const Index = () => {
           </p>
           
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm">
-            <span className="text-foreground font-medium">Panderando com Carlos Café</span>
+            <span className="text-foreground font-medium">workshop Alex Nasser  </span>
             <span className="text-muted-foreground">|</span>
             <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Termos de Uso</a>
             <span className="text-muted-foreground">|</span>
@@ -373,7 +373,7 @@ const Index = () => {
           </p>
           
           <p className="text-sm text-muted-foreground">
-            Contato: <a href="mailto:edilsonafi@gmail.com" className="text-foreground hover:text-primary transition-colors">edilsonafi@gmail.com</a>
+            Contato: edilsomdil@gmail.com <a href="mailto:edilsonafi@gmail.com" className="text-foreground hover:text-primary transition-colors">edilsonafi@gmail.com</a>
           </p>
           
           <p className="text-xs text-muted-foreground">
