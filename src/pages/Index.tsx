@@ -183,9 +183,7 @@ const Index = () => {
                 <span className="text-accent font-bold text-sm uppercase tracking-wide">BÔNUS</span>
               </div>
               
-              <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6">
-                Toque seu primeiro Samba
-              </h3>
+              <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6">Ebook Ritmos Orientais Àrabes - vol.1</h3>
               
               <div className="rounded-xl overflow-hidden border border-border mb-6">
                 <img src={bonusImage} alt="Curso Bônus - Toque seu primeiro Samba em 7 dias" className="w-full h-auto" />
