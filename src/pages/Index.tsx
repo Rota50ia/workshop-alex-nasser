@@ -148,8 +148,7 @@ const Index = () => {
               <p className="text-2xl md:text-3xl text-accent font-bold">(Sim... São apenas R$ 67,00)</p>
               
               <div className="space-y-4">
-                <p className="text-lg text-foreground leading-relaxed">
-                  Você vai ganhar como BÔNUS o <span className="font-bold text-accent">"EBOOK Ritmos Orientais Árabes - vol.1"</span> que custa R$47,00 pelo preço único:
+                <p className="text-lg text-foreground leading-relaxed">Você vai ganhar como BÔNUS o  "EBOOK + VÍDEOS: Ritmos Orientais Árabes - vol.1" que custa R$47,00 pelo preço único:<span className="font-bold text-accent">"EBOOK Ritmos Orientais Árabes - vol.1"</span> que custa R$47,00 pelo preço único:
                 </p>
                 <p className="text-base text-muted-foreground leading-relaxed">
                   <span className="line-through">​</span>​ <span className="line-through">R$47,00</span> ​ <span className="font-bold text-accent text-2xl">R$67</span>
@@ -183,7 +182,8 @@ const Index = () => {
                 <span className="text-accent font-bold text-sm uppercase tracking-wide">BÔNUS</span>
               </div>
               
-              <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6">Ebook Ritmos Orientais Àrabes - vol.1</h3>
+              <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6">Ebook + Vídeos:
+Ritmos Orientais Àrabes - vol.1</h3>
               
               <div className="rounded-xl overflow-hidden border border-border mb-6">
                 <img src={bonusImage} alt="Curso Bônus - Toque seu primeiro Samba em 7 dias" className="w-full h-auto" />
