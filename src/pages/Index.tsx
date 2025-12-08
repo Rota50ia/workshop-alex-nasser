@@ -5,7 +5,7 @@ import UrgencyBar from "@/components/UrgencyBar";
 import CountdownTimer from "@/components/CountdownTimer";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import heroImage from "@/assets/alex-nasser-hero.png";
-import bonusImage from "@/assets/bonus-curso-samba.png";
+import bonusImage from "@/assets/bonus-ebook.png";
 const Index = () => {
   // Event date: December 21, 2025 at 10:00 (10:00 AM)
   const [targetDate] = useState(() => {
@@ -189,11 +189,6 @@ const Index = () => {
                 <img src={bonusImage} alt="Curso Bônus - Toque seu primeiro Samba em 7 dias" className="w-full h-auto" />
               </div>
               
-              <div className="space-y-3">
-                <p className="text-sm text-muted-foreground leading-relaxed">
-                  Aprenda os fundamentos da batida de pandeiro com orientações guiadas e práticas diretas que levam você do zero até tocar samba.
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -267,79 +262,6 @@ const Index = () => {
           </div>
         </div>
 
-        {/* FAQ Section */}
-        <div className="mt-16 md:mt-24 max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
-              🛠️ FAQ – Perguntas Frequentes
-            </h2>
-          </div>
-
-          <Accordion type="single" collapsible className="w-full space-y-4">
-            <AccordionItem value="item-1" className="bg-card rounded-lg border px-6">
-              <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
-                Preciso já saber tocar algum instrumento?
-              </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground">
-                Não! Este workshop é pensado especialmente para quem está começando do zero. Carlos Café vai te ensinar desde os fundamentos básicos até você conseguir tocar seu primeiro samba, mesmo sem experiência musical prévia.
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-2" className="bg-card rounded-lg border px-6">
-              <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
-                Preciso ter um pandeiro?
-              </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground">
-                Idealmente sim, para praticar durante e após o workshop. Mas não se preocupe se ainda não tiver - você pode assistir ao workshop e começar a praticar assim que conseguir um pandeiro. O importante é garantir sua vaga agora!
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-3" className="bg-card rounded-lg border px-6">
-              <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
-                As aulas são ao vivo?
-              </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground">
-                Sim! O workshop acontece ao vivo na quarta-feira, 15/10 às 20h. Você poderá interagir, tirar dúvidas em tempo real e vivenciar uma experiência completa com Carlos Café e outros participantes. Além disso, você terá acesso às gravações.
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-4" className="bg-card rounded-lg border px-6">
-              <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
-                Por quanto tempo terei acesso ao conteúdo?
-              </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground">
-                Você terá acesso vitalício a todo o conteúdo do workshop e aos materiais bônus. Poderá rever as aulas quantas vezes quiser, no seu próprio ritmo.
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-5" className="bg-card rounded-lg border px-6">
-              <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
-                Quanto tempo preciso dedicar por dia?
-              </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground">
-                O workshop ao vivo tem duração prevista, mas você pode praticar no seu ritmo. Recomendamos pelo menos 15-30 minutos diários de prática para resultados consistentes, mas você é livre para dedicar o tempo que funcionar melhor para você.
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-6" className="bg-card rounded-lg border px-6">
-              <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
-                E se eu não conseguir acompanhar?
-              </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground">
-                Fique tranquilo! Como você terá acesso vitalício às gravações, pode assistir e rever as aulas quantas vezes precisar. Além disso, o método do Carlos Café é desenhado para iniciantes, com explicações passo a passo bem detalhadas.
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-7" className="bg-card rounded-lg border px-6">
-              <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline">
-                Tem garantia?
-              </AccordionTrigger>
-              <AccordionContent className="text-muted-foreground">
-                Sim! Oferecemos garantia de 7 dias. Se você participar do workshop e não ficar 100% satisfeito, devolvemos seu dinheiro sem perguntas e sem burocracia. Você não corre nenhum risco!
-              </AccordionContent>
-            </AccordionItem>
-          </Accordion>
-        </div>
       </div>
 
       {/* Footer */}
