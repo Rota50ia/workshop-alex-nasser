@@ -152,7 +152,7 @@ const Index = () => {
                 Por Que Você Deve Fazer o Workshop
               </h2>
               
-              <p className="text-2xl md:text-3xl text-accent font-bold">(Sim... São apenas R$ 57,00)</p>
+              <p className="text-2xl md:text-3xl text-accent font-bold">(Sim... São apenas R$ 67,00)</p>
               
               <div className="space-y-4">
                 <p className="text-lg text-foreground leading-relaxed">
