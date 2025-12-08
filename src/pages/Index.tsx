@@ -169,7 +169,7 @@ const Index = () => {
                     <span className="text-accent">=</span>
                     <span className="text-accent text-3xl">R$20,00</span>
                   </div>
-                  <p className="text-base text-foreground font-medium">Você faz o workshop com Alex Nasser por apenas R$21,00!<span className="text-accent font-bold text-xl">R$21,00</span>!
+                  <p className="text-base text-foreground font-medium">Você faz o workshop com Alex Nasser por apenas R$20,00<span className="text-accent font-bold text-xl">R$21,00</span>!
                   </p>
                 </div>
               </div>
