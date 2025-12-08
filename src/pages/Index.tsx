@@ -7,14 +7,13 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import heroImage from "@/assets/alex-nasser-hero.png";
 import bonusImage from "@/assets/bonus-curso-samba.png";
 const Index = () => {
-  // Event date: October 15, 2025 at 20:00 (8:00 PM)
+  // Event date: December 21, 2025 at 10:00 (10:00 AM)
   const [targetDate] = useState(() => {
     const date = new Date();
     const currentYear = date.getFullYear();
-    const currentMonth = date.getMonth();
 
-    // Set to November 20 at 20:00
-    const eventDate = new Date(currentYear, 10, 20, 20, 0, 0); // Month is 0-indexed (10 = November)
+    // Set to December 21 at 10:00
+    const eventDate = new Date(currentYear, 11, 21, 10, 0, 0); // Month is 0-indexed (11 = December)
 
     // If the date has passed this year, set it for next year
     if (eventDate < date) {
@@ -23,7 +22,7 @@ const Index = () => {
     return eventDate;
   });
   const handleCTAClick = () => {
-    window.location.href = "https://sun.eduzz.com/Z0B5NA3JWA";
+    window.location.href = "https://sun.eduzz.com/Z0B54773WA?utm_source=pv&utm_id=01";
   };
   return <div className="min-h-screen bg-background">
       {/* Urgency Bar */}
@@ -39,7 +38,7 @@ const Index = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
               <div className="absolute bottom-4 left-4 right-4 md:bottom-6 md:left-6 md:right-6 flex flex-col gap-2 md:gap-3">
               <Button onClick={handleCTAClick} className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-[9px] xs:text-[10px] sm:text-xs md:text-sm lg:text-base py-2.5 sm:py-3 md:py-4 lg:py-5 px-2 sm:px-3 md:px-4 rounded-full shadow-lg transition-all duration-300 leading-tight whitespace-normal sm:whitespace-nowrap text-center">
-                  AULA MASTER + EBOOK + VÍDEOS R$57
+                  AULA MASTER + EBOOK + VÍDEOS R$67
                 </Button>
               </div>
             </div>
@@ -79,8 +78,8 @@ const Index = () => {
 
             <div className="flex flex-col md:flex-row gap-2 md:gap-3">
               <Button onClick={handleCTAClick} className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xs sm:text-sm md:text-base lg:text-lg py-3 sm:py-4 md:py-5 px-3 sm:px-4 md:px-6 lg:px-8 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-primary/50">
-                <span className="hidden sm:inline">AULA MASTER + EBOOK + VÍDEOS R$57</span>
-                <span className="sm:hidden">MASTER + EXTRAS R$57</span>
+                <span className="hidden sm:inline">AULA MASTER + EBOOK + VÍDEOS R$67</span>
+                <span className="sm:hidden">MASTER + EXTRAS R$67</span>
               </Button>
             </div>
 
@@ -120,15 +119,15 @@ const Index = () => {
             
             <p className="text-muted-foreground text-base mb-4">Se depois de assistir o workshop e receber todas as dicas de Alex Nasser,</p>
             
-            <p className="text-muted-foreground text-base mb-4">você não achar HONESTAMENTE que vale pelo menos 100 vezes os R$57 que pagou...</p>
+            <p className="text-muted-foreground text-base mb-4">você não achar HONESTAMENTE que vale pelo menos 100 vezes os R$67 que pagou...</p>
             
             <p className="text-muted-foreground text-base mb-8">
               Nós devolvemos todo seu dinheiro na mesma hora. Sem perguntas. Sem burocracia. Sem risco.
             </p>
             
             <Button onClick={handleCTAClick} className="w-full md:w-auto bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-base sm:text-lg md:text-xl py-4 sm:py-6 md:py-8 px-6 sm:px-8 md:px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105 mb-4">
-              <span className="hidden sm:inline">GARANTIR ACESSO VIP → R$57</span>
-              <span className="sm:hidden">ACESSO VIP → R$57</span>
+              <span className="hidden sm:inline">GARANTIR ACESSO VIP → R$67</span>
+              <span className="sm:hidden">ACESSO VIP → R$67</span>
             </Button>
             
             <p className="text-muted-foreground text-sm">
@@ -264,8 +263,8 @@ const Index = () => {
 
           <div className="mt-12 text-center">
             <Button onClick={handleCTAClick} className="w-full md:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground font-bold text-base sm:text-lg md:text-xl py-4 sm:py-6 md:py-8 px-6 sm:px-8 md:px-12 rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105">
-              <span className="hidden sm:inline">Garanta Seu VIP por Apenas R$57</span>
-              <span className="sm:hidden">VIP por R$57</span>
+              <span className="hidden sm:inline">Garanta Seu VIP por Apenas R$67</span>
+              <span className="sm:hidden">VIP por R$67</span>
             </Button>
           </div>
         </div>
