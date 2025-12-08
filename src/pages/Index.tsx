@@ -155,8 +155,7 @@ const Index = () => {
               <p className="text-2xl md:text-3xl text-foreground font-bold">(Sim... São apenas R$ 57,00)</p>
               
               <div className="space-y-4">
-                <p className="text-lg text-foreground leading-relaxed">
-                  Você vai ganhar como <span className="font-bold text-accent">R$57</span> o Curso <span className="font-semibold">&quot;Toque seu primeiro samba em 7 dias&quot;</span> que custa <span className="font-bold text-primary">R$27,00</span> pelo preço único: <span className="font-bold text-accent text-2xl">R$48</span>
+                <p className="text-lg text-foreground leading-relaxed">Você vai ganhar como BÔNUS o  "EBOOK Ritmos Orientais Àrabes - vol.1" que custa R$27,00 pelo preço único: R$57<span className="font-bold text-accent">"Ritmos Orientais Àrabes - vol.1"</span> o Curso <span className="font-semibold">&quot;Toque seu primeiro samba em 7 dias&quot;</span> que custa <span className="font-bold text-primary">R$27,00</span> pelo preço único: <span className="font-bold text-accent text-2xl">R$48</span>
                 </p>
                 
                 <div className="bg-accent/10 border-2 border-accent rounded-2xl p-6 space-y-3">
@@ -164,14 +163,13 @@ const Index = () => {
                     Ou seja:
                   </p>
                   <div className="flex items-center gap-3 text-xl md:text-2xl font-bold">
-                    <span className="text-foreground">R$48</span>
+                    <span className="text-foreground">R$57</span>
                     <span className="text-muted-foreground">-</span>
-                    <span className="text-primary">R$27</span>
+                    <span className="text-primary">R$47</span>
                     <span className="text-accent">=</span>
-                    <span className="text-accent text-3xl">R$21,00</span>
+                    <span className="text-accent text-3xl">R$10,00</span>
                   </div>
-                  <p className="text-base text-foreground font-medium">
-                    Você faz o workshop com o Mestre Carlos Café por apenas <span className="text-accent font-bold text-xl">R$21,00</span>!
+                  <p className="text-base text-foreground font-medium">Você faz o workshop com Alex Nasser por apenas R$21,00!<span className="text-accent font-bold text-xl">R$21,00</span>!
                   </p>
                 </div>
               </div>
