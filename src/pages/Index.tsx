@@ -152,13 +152,11 @@ const Index = () => {
                 Por Que Você Deve Fazer o Workshop
               </h2>
               
-              <p className="text-2xl md:text-3xl text-foreground font-bold">
-                (Sim... São apenas R$ 48)
-              </p>
+              <p className="text-2xl md:text-3xl text-foreground font-bold">(Sim... São apenas R$ 57,00)</p>
               
               <div className="space-y-4">
                 <p className="text-lg text-foreground leading-relaxed">
-                  Você vai ganhar como <span className="font-bold text-accent">Bônus</span> o Curso <span className="font-semibold">&quot;Toque seu primeiro samba em 7 dias&quot;</span> que custa <span className="font-bold text-primary">R$27,00</span> pelo preço único: <span className="font-bold text-accent text-2xl">R$48</span>
+                  Você vai ganhar como <span className="font-bold text-accent">R$57</span> o Curso <span className="font-semibold">&quot;Toque seu primeiro samba em 7 dias&quot;</span> que custa <span className="font-bold text-primary">R$27,00</span> pelo preço único: <span className="font-bold text-accent text-2xl">R$48</span>
                 </p>
                 
                 <div className="bg-accent/10 border-2 border-accent rounded-2xl p-6 space-y-3">
