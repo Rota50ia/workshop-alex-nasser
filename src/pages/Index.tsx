@@ -159,7 +159,7 @@ const Index = () => {
                   Você vai ganhar como BÔNUS o <span className="font-bold text-accent">"EBOOK Ritmos Orientais Árabes - vol.1"</span> que custa R$47,00 pelo preço único:
                 </p>
                 <p className="text-base text-muted-foreground leading-relaxed">
-                  <span className="line-through">R$67</span>"EBOOK Ritmos Orientais Árabes - vol.1" que custa <span className="line-through">R$47,00</span> pelo preço único: <span className="font-bold text-accent text-2xl">R$67</span>
+                  <span className="line-through">​</span>​ <span className="line-through">R$47,00</span> ​ <span className="font-bold text-accent text-2xl">R$67</span>
                 </p>
                 
                 <div className="bg-card border-2 border-border rounded-2xl p-6 space-y-3">
