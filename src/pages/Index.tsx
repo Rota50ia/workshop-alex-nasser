@@ -262,6 +262,112 @@ Ritmos Orientais Àrabes - vol.1</h3>
           </div>
         </div>
 
+        {/* FAQ Section */}
+        <div className="mt-16 md:mt-24">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground flex items-center justify-center gap-3">
+              <span>❓</span> FAQ: E-Book RITMOS ORIENTAIS ÁRABES - Vol. 1
+            </h2>
+            <p className="text-muted-foreground mt-4 max-w-3xl mx-auto">
+              Aqui estão as perguntas frequentes sobre o seu guia de estudo dos ritmos árabes, focado na música "Tamil".
+            </p>
+          </div>
+
+          <div className="max-w-4xl mx-auto">
+            <Accordion type="single" collapsible className="space-y-4">
+              <AccordionItem value="item-1" className="bg-card border border-border rounded-xl px-6">
+                <AccordionTrigger className="text-left text-foreground font-semibold hover:no-underline">
+                  O que é o E-book "Ritmos Orientais Árabes - Vol. 1"?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  É um guia de estudo rítmico focado nos iqa'at (ritmos) presentes na música "Tamil" de Mario Kirlis. O material é escrito pelo músico e professor Alex Nasser.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-2" className="bg-card border border-border rounded-xl px-6">
+                <AccordionTrigger className="text-left text-foreground font-semibold hover:no-underline">
+                  Para quem este e-book é indicado?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  É fundamental para músicos e, principalmente, para as bailarinas das danças orientais árabes que desejam conhecer e aprender a reconhecer o "ritmo puro".
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-3" className="bg-card border border-border rounded-xl px-6">
+                <AccordionTrigger className="text-left text-foreground font-semibold hover:no-underline">
+                  O que é o "ritmo puro" na música árabe?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  O ritmo puro é composto pelos toques principais de um ritmo árabe. Esses toques, inseridos em uma estrutura de tempos, são o que basicamente define e identifica o ritmo em execução.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-4" className="bg-card border border-border rounded-xl px-6">
+                <AccordionTrigger className="text-left text-foreground font-semibold hover:no-underline">
+                  Quais são os toques principais usados na notação?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  Os toques principais são chamados de DUM (para o som grave) e TAK (para o som agudo). A pausa ou silêncio é representada pelo fonema ESSS (ou o símbolo +).
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-5" className="bg-card border border-border rounded-xl px-6">
+                <AccordionTrigger className="text-left text-foreground font-semibold hover:no-underline">
+                  Quantos ritmos são abordados no e-book?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  O volume 1 aborda 9 iqa'at (ritmos) distintos, listados no índice, como Malfouf, Fallahi, Masmoudi Saghir, Saidi, Wahda, Beddawi, Rumba Masri, Conga Masri, e Jerk.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-6" className="bg-card border border-border rounded-xl px-6">
+                <AccordionTrigger className="text-left text-foreground font-semibold hover:no-underline">
+                  O que define o Iqa' Malfouf?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  É um ritmo binário (2/4) fundamental, caracterizado pelo toque Dum (grave) posicionado precisamente no início do ciclo (cabeça do primeiro tempo).
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-7" className="bg-card border border-border rounded-xl px-6">
+                <AccordionTrigger className="text-left text-foreground font-semibold hover:no-underline">
+                  Qual é a diferença entre Iqa' Fallahi e Maqsoum?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  O Fallahi compartilha a figura rítmica básica com o Maqsoum, mas o Fallahi é binário (2 tempos), enquanto o Maqsoum é quaternário (4 tempos). Isso implica que as batidas do Fallahi têm o dobro da velocidade das batidas do Maqsoum no mesmo andamento.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-8" className="bg-card border border-border rounded-xl px-6">
+                <AccordionTrigger className="text-left text-foreground font-semibold hover:no-underline">
+                  Por que o Iqa' Masmoudi Saghir é chamado de Baladi?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  Masmoudi Saghir é popularmente conhecido como Baladi. O termo Baladi significa "da vila" ou "do campo". Ele se destaca por seu peso e densidade sonora, conferida pelos dois toques graves (Dum) que iniciam o compasso.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-9" className="bg-card border border-border rounded-xl px-6">
+                <AccordionTrigger className="text-left text-foreground font-semibold hover:no-underline">
+                  Qual a função do Iqa' Wahda?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  É o principal iqa' vocal no gênero Tarab (música de êxtase). Sua figura rítmica espaçada oferece ao cantor amplo espaço para realizar melismas e extensões de vogais.
+                </AccordionContent>
+              </AccordionItem>
+
+              <AccordionItem value="item-10" className="bg-card border border-border rounded-xl px-6">
+                <AccordionTrigger className="text-left text-foreground font-semibold hover:no-underline">
+                  Quais ritmos são exemplos de fusão cultural no e-book?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  O Iqa' Rumba Masri e o Iqa' Conga Masri. O Rumba Masri é adaptado de influências latinas, enquanto o Conga Masri resulta da intersecção cultural entre o sabor rítmico africano da Conga e a tradição percussiva egípcia.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </div>
+        </div>
+
       </div>
 
       {/* Footer */}
