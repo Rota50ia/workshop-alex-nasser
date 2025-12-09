@@ -393,8 +393,7 @@ Ritmos Orientais Àrabes - vol.1</h3>
             Todos os direitos reservados – Edilson Morais 2025
           </p>
           
-          <p className="text-sm text-muted-foreground">
-            Contato: edilsomdil@gmail.com <a href="mailto:edilsonafi@gmail.com" className="text-foreground hover:text-primary transition-colors">edilsonafi@gmail.com</a>
+          <p className="text-sm text-muted-foreground">Contato: edilsomdil@gmail.com edilsomdil@gmail.com<a href="mailto:edilsonafi@gmail.com" className="text-foreground hover:text-primary transition-colors">edilsonafi@gmail.com</a>
           </p>
           
           <p className="text-xs text-muted-foreground">
