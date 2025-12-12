@@ -147,11 +147,9 @@ const Index = () => {
               
               <p className="text-2xl md:text-3xl text-accent font-bold">(Sim... São apenas R$ 67,00)</p>
               
-              <div className="space-y-4">
-                <p className="text-lg text-foreground leading-relaxed">Você vai ganhar como BÔNUS o  "EBOOK + VÍDEOS: Ritmos Orientais Árabes - vol.1" que custa R$47,00 pelo preço único:<span className="font-bold text-accent">"EBOOK Ritmos Orientais Árabes - vol.1"</span> que custa R$47,00 pelo preço único:
-                </p>
-                <p className="text-base text-muted-foreground leading-relaxed">
-                  <span className="line-through">​</span>​ <span className="line-through">R$47,00</span> ​ <span className="font-bold text-accent text-2xl">R$67</span>
+<div className="space-y-4">
+                <p className="text-lg text-foreground leading-relaxed">
+                  Você vai ganhar como BÔNUS o <span className="font-bold text-accent">"EBOOK Ritmos Orientais Árabes - vol.1"</span> de R$47,00
                 </p>
                 
                 <div className="bg-card border-2 border-border rounded-2xl p-6 space-y-3">
@@ -159,15 +157,14 @@ const Index = () => {
                     Ou seja:
                   </p>
                   <div className="flex items-center gap-3 text-xl md:text-2xl font-bold">
-                    <span className="text-foreground line-through">R$67</span>
+                    <span className="text-foreground">R$67</span>
                     <span className="text-muted-foreground">-</span>
-                    <span className="text-primary line-through">R$47</span>
+                    <span className="text-primary">R$47</span>
                     <span className="text-foreground">=</span>
                     <span className="text-accent text-3xl">R$20,00</span>
                   </div>
                   <p className="text-base text-foreground font-medium">
-                    Você faz o workshop com Alex Nasser por apenas<br />
-                    <span className="line-through text-muted-foreground">R$20,00</span><span className="text-accent font-bold text-xl">R$20,00</span>
+                    Resultado: Você faz o workshop com Alex Nasser por apenas <span className="text-accent font-bold text-xl">R$20,00</span>
                   </p>
                 </div>
               </div>
