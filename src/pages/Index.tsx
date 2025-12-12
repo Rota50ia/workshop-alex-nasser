@@ -110,7 +110,7 @@ const Index = () => {
         <div className="mt-16 md:mt-24">
           <div className="bg-card border border-border rounded-3xl p-8 md:p-12 text-center max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              "Garantia 100x" Ou Seu Dinheiro de Volta
+              "Garantia 100%" Ou Seu Dinheiro de Volta
             </h2>
             
             <p className="text-muted-foreground text-lg mb-6">
