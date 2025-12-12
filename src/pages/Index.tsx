@@ -198,7 +198,7 @@ Ritmos Orientais Àrabes - vol.1</h3>
             </h2>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
             {/* Credit Card */}
             <div className="bg-card border border-border rounded-2xl p-8 text-center space-y-4">
               <div className="flex justify-center">
@@ -230,23 +230,6 @@ Ritmos Orientais Àrabes - vol.1</h3>
               <p className="text-sm text-muted-foreground flex items-center justify-center gap-2">
                 <span className="text-muted-foreground">⊕</span>
                 Liberação rápida em poucos minutos
-              </p>
-            </div>
-
-            {/* Boleto Bancário */}
-            <div className="bg-card border border-border rounded-2xl p-8 text-center space-y-4">
-              <div className="flex justify-center">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
-                  <span className="text-3xl">📄</span>
-                </div>
-              </div>
-              <h3 className="text-xl font-bold text-foreground flex items-center justify-center gap-2">
-                <span className="text-primary">✓</span> Boleto Bancário
-              </h3>
-              <p className="text-primary font-semibold">Pagamento à vista</p>
-              <p className="text-sm text-muted-foreground flex items-center justify-center gap-2">
-                <span className="text-muted-foreground">⊕</span>
-                Liberação em até 2 dias úteis após o pagamento
               </p>
             </div>
           </div>
