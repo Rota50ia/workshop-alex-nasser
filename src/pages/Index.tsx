@@ -137,9 +137,9 @@ const Index = () => {
               
               <p className="text-2xl md:text-3xl text-accent font-bold">(Sim... São apenas R$ 67,00)</p>
               
-<div className="space-y-4">
+            <div className="space-y-4">
                 <p className="text-lg text-foreground leading-relaxed">
-                  Você vai ganhar como BÔNUS o <span className="font-bold text-accent">"EBOOK Ritmos Orientais Árabes - vol.1"</span> de R$47,00
+                  Você vai ganhar como BÔNUS o <span className="font-bold text-accent">"EBOOK Ritmos Orientais Árabes - vol.1"</span> de R$47,00 (ACESSO POR 2 ANOS) 
                 </p>
                 
                 <div className="bg-card border-2 border-border rounded-2xl p-6 space-y-3">
