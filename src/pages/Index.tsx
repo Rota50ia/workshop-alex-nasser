@@ -7,19 +7,9 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import heroImage from "@/assets/alex-nasser-hero.png";
 import bonusImage from "@/assets/bonus-ebook.png";
 const Index = () => {
-  // Event date: December 21, 2025 at 10:00 (10:00 AM)
+  // Event date: January 22, 2026 at 20:00 (8:00 PM)
   const [targetDate] = useState(() => {
-    const date = new Date();
-    const currentYear = date.getFullYear();
-
-    // Set to December 21 at 10:00
-    const eventDate = new Date(currentYear, 11, 21, 10, 0, 0); // Month is 0-indexed (11 = December)
-
-    // If the date has passed this year, set it for next year
-    if (eventDate < date) {
-      eventDate.setFullYear(currentYear + 1);
-    }
-    return eventDate;
+    return new Date(2026, 0, 22, 20, 0, 0); // Month is 0-indexed (0 = January)
   });
   const handleCTAClick = () => {
     window.location.href = "https://sun.eduzz.com/Z0B54773WA?utm_source=pv&utm_id=01";
@@ -69,7 +59,7 @@ const Index = () => {
               <span className="text-accent font-bold text-sm uppercase tracking-wide">
                 WORKSHOP LIVE
               </span>
-              <span className="text-foreground font-bold text-sm">| DOM 21/12 ÀS 10H da MANHÃ</span>
+              <span className="text-foreground font-bold text-sm">| QUI 22/01 às 20h00 e DOM 25/01 às 10h00</span>
             </div>
 
             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-snug">
